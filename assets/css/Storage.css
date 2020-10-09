@@ -1,0 +1,7 @@
+td:first-child {
+    max-width: 10vw !important;
+    min-width: 30px !important;
+    overflow: hidden !important;
+    word-wrap: break-word !important;
+   display: inline-block;
+}
