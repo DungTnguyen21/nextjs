@@ -15,7 +15,8 @@ export default async (req, res) => {
       data: {
         username,
         password,
-      }
+      },
+      httpAgent :agent
     });
     if (response.status === 200) {
       let { data } = response;
